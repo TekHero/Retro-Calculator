@@ -14,6 +14,7 @@
 		D31B91DB1C00B5A000712681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31B91D91C00B5A000712681 /* LaunchScreen.storyboard */; };
 		D31B91E61C00B5A000712681 /* Retro_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31B91E51C00B5A000712681 /* Retro_CalculatorTests.swift */; };
 		D31B91F11C00B5A100712681 /* Retro_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31B91F01C00B5A100712681 /* Retro_CalculatorUITests.swift */; };
+		D31B92011C00C81A00712681 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = D31B92001C00C81A00712681 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D31B91EC1C00B5A000712681 /* Retro-CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Retro-CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D31B91F01C00B5A100712681 /* Retro_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retro_CalculatorUITests.swift; sourceTree = "<group>"; };
 		D31B91F21C00B5A100712681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31B92001C00C81A00712681 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				D31B91D01C00B5A000712681 /* AppDelegate.swift */,
 				D31B91D21C00B5A000712681 /* ViewController.swift */,
 				D31B91D41C00B5A000712681 /* Main.storyboard */,
+				D31B92001C00C81A00712681 /* btn.wav */,
 				D31B91D71C00B5A000712681 /* Assets.xcassets */,
 				D31B91D91C00B5A000712681 /* LaunchScreen.storyboard */,
 				D31B91DC1C00B5A000712681 /* Info.plist */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D31B92011C00C81A00712681 /* btn.wav in Resources */,
 				D31B91DB1C00B5A000712681 /* LaunchScreen.storyboard in Resources */,
 				D31B91D81C00B5A000712681 /* Assets.xcassets in Resources */,
 				D31B91D61C00B5A000712681 /* Main.storyboard in Resources */,
@@ -482,6 +486,7 @@
 				D31B91F71C00B5A100712681 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D31B91F81C00B5A100712681 /* Build configuration list for PBXNativeTarget "Retro-CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				D31B91FA1C00B5A100712681 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D31B91FB1C00B5A100712681 /* Build configuration list for PBXNativeTarget "Retro-CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				D31B91FD1C00B5A100712681 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
